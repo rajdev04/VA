@@ -6,6 +6,7 @@ import Page1 from '@/app/components/page1'
 import Page2 from '@/app/components/page2'
 import Page3 from '@/app/components/page3'
 import Page4 from '@/app/components/page4'
+import Page5 from '@/app/components/page5'
 
 const page = () => {
   return (
@@ -19,6 +20,8 @@ const page = () => {
       <Page3></Page3>
       <br/>
       <Page4></Page4>
+      <br/>
+      <Page5></Page5>
     </>
   )
 }
