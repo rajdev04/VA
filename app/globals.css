@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 html,body{
-  height: fit-content;
-  width: 100vw;
-  max-width: 100%;
   background-color: whitesmoke;
   font-family: gilroy;
   overflow-x: hidden;
@@ -111,6 +108,7 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .cont-1-img-1{
   height: 80vh;
@@ -176,4 +174,84 @@ html,body{
   font-size: 3vh;  
   font-weight: 100;
   text-align: center;
+}
+.vid-wraper{
+  height: 50vh;
+  width: 100vw;
+  max-width: 100%;
+  pointer-events: none;
+}
+.vid{
+  height: 50vh;
+  width: 100vw;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+
+
+/* PAGE 3 STYLING */
+
+
+.cont-3{
+  height: 60vh;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+  background-color: rosybrown;
+}
+
+.service{
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vh;
+}
+.service-1{
+  height: 50vh;
+  width: 24vw;
+  background-color: lightgrey;
+  border-radius: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vh;
+}
+.service-one{
+  height: 29vh;
+  width: 23vw;
+}
+.service-two{
+  height: 19vh;
+  width: 23vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1vh;
+  gap: 2vh; 
+}
+.service-two-text-1{
+  font-size: 4.5vh;
+}
+.service-two-text-2{
+  font-size: 2vh;
+  font-weight: 100;
+  text-align: center;
+}
+.service-2{
+  height: 8vh;
+  width: 24vw;
+  border-radius: 1vh;
+  background-color: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
