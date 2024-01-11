@@ -5,6 +5,7 @@ import Nav from '@/app/components/nav'
 import Page1 from '@/app/components/page1'
 import Page2 from '@/app/components/page2'
 import Page3 from '@/app/components/page3'
+import Page4 from '@/app/components/page4'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <br/>
       <Page3></Page3>
       <br/>
+      <Page4></Page4>
     </>
   )
 }

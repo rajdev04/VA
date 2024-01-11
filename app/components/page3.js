@@ -18,7 +18,7 @@ const page3 = () => {
                         </div>
                     </div>
                     <div className='service-2'>
-                        <Link href=''>EXPLORE MORE</Link>
+                        <Link href='' className='hype-link-service'>EXPLORE MORE</Link>
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ const page3 = () => {
                         </div>
                     </div>
                     <div className='service-2'>
-                    <Link href=''>EXPLORE MORE</Link>
+                    <Link href='' className='hype-link-service'>EXPLORE MORE</Link>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ const page3 = () => {
                         </div>
                     </div>
                     <div className='service-2'>
-                    <Link href=''>EXPLORE MORE</Link>
+                    <Link href='' className='hype-link-service'>EXPLORE MORE</Link>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ const page3 = () => {
                         </div>
                     </div>
                     <div className='service-2'>
-                    <Link href=''>EXPLORE MORE</Link>
+                    <Link href='' className='hype-link-service'>EXPLORE MORE</Link>
                     </div>
                 </div>
         </div>

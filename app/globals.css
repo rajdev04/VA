@@ -200,8 +200,8 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 1vh;
   gap: 1vh;
-  background-color: rosybrown;
 }
 
 .service{
@@ -260,4 +260,67 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.hype-link-service{
+  text-decoration: none;
+  color: black;
+  height: 5.5vh;
+  width: 10vw;
+  font-size: 2vh;
+  font-weight: 900;
+  border: .3vh solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5vh;
+}
+
+
+
+/* PAGE 4 STYLING */
+
+
+.cont-4{
+  height: 65vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.cont-4-left{
+  height: 60vh;
+  width: 40vw;
+  background-color: darkorange;
+  display: flex;
+  align-items: flex-start;
+  padding: 5vh 0;
+  justify-content: center;
+}
+.c-4-left-text{
+  font-size: 10vh;
+  text-align: right;
+  margin-right: 15vh;
+}.c-4-right-text{
+  font-size: 10vh;
+}
+.cont-4-right{
+  height: 60vh;
+  width: 60vw;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-4-center{
+  height: 30vh;
+  width: 30vh;
+  background-color: lightgrey;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
 }
