@@ -10,7 +10,7 @@ const page = () => {
   return (
     <>
       <Nav></Nav>
-      <br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/>
       <Page1></Page1>
       <br/>
       <Page2></Page2>

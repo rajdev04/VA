@@ -13,7 +13,7 @@ html,body{
 
 
 .navbar{
-  height: 9vh;
+  height: 6vh;
   width: 100vw;
   max-width: 100%;
   display: flex;
@@ -53,10 +53,10 @@ html,body{
   gap: 1vh;
 }
 .gg>i{
-  font-size: 2.4vh;
+  font-size: 2vh;
 }
 .hyperlink{
-  font-size: 2.5vh;
+  font-size: 2.2vh;
   text-decoration: none;
   color: black;
 }
@@ -228,6 +228,12 @@ html,body{
   height: 29vh;
   width: 23vw;
 }
+.service-one-img{
+  height: 29vh;
+  width: 23vw;
+  object-fit: cover;
+  border-radius: 1vh;
+}
 .service-two{
   height: 19vh;
   width: 23vw;
@@ -239,7 +245,7 @@ html,body{
   gap: 2vh; 
 }
 .service-two-text-1{
-  font-size: 4.5vh;
+  font-size: 4vh;
 }
 .service-two-text-2{
   font-size: 2vh;
