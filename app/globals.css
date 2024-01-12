@@ -19,7 +19,7 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lightgrey;
+  background-color: whitesmoke;
   position: fixed;
   z-index: 999;
 }
@@ -384,4 +384,119 @@ html,body{
   height: 10vh;
   width: 50vw;
   background-color: royalblue;
+}
+
+
+/* PAGE 7 STYLING */
+
+
+.cont-7{
+  height: 90vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: crimson;
+  display: flex;
+}
+.cont-7-right{
+  height: 90vh;
+  width: 50%;
+  background-color: lightgrey;
+}
+.cont-7-left{
+  height: 90vh;
+  width: 50%;
+  background-color: darkorange;  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10vh;
+}
+.center-7-wraper-left{
+  height: 60vh;
+  width: 20vw;
+  background-color: lightgrey;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+  flex-direction: column;
+}
+.contact-1{
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-1>h1{
+  font-size: 4.5vh;
+}
+.contact-2{
+  height: 30vh;
+  width: 20vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vh;
+  padding: 0 2vh;
+}
+.c-details{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: .5vh;
+ }
+.c-details>h1{
+  font-size: 2.5vh;
+}
+.c-details>h2{
+  font-size: 2vh;
+  font-weight: 100;
+}
+.c-details>i{
+  font-size: 2.5vh;
+}
+.contact-3{
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vh;
+}
+.social-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vh;
+}
+.social-cont>i{
+  font-size: 3vh;
+}
+.cont-7-center{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.inner-7-center{
+  height: 70vh;
+  width: 70vw;
+  background-color: whitesmoke;
+  display: flex;
+}
+.contact-inner-right{
+  height: 70vh;
+  width: 55vw;
+  background-color: tomato;
+}
+.contact-inner-left{
+  height: 70vh;
+  width: 15vw;
 }
