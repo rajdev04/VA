@@ -180,9 +180,15 @@ html,body{
   width: 100vw;
   max-width: 100%;
   pointer-events: none;
+  overflow: hidden;
+  position: relative;
 }
 .vid{
-  height: 50vh;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* height: 50vh; */
   width: 100vw;
   object-fit: cover;
   pointer-events: none;
@@ -344,10 +350,22 @@ html,body{
 .cont-5-text-2{
   font-size: 9vh;
   color: darkorange;
+  line-height: 10vh;
 }
 .cont-5-text-3{
   font-size: 2.5vh;
   font-weight: 100;
   width: 60vw;
   text-align: center;
+}
+
+
+/* PAGE 6 STYLING */
+
+
+.cont-6{
+  height: 60vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: lightgrey;
 }

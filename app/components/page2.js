@@ -11,9 +11,11 @@ const page2 = () => {
         </div>
         <br/>
         <div className='vid-wraper'>
-            <video  className='vid' controls autoPlay muted loop>
+                <img src='./yaadein91.jpg' className='vid'/>
+
+            {/* <video  className='vid' controls autoPlay muted loop>
                 <source src='./LongVideo.mp4' type="video/mp4"/>
-            </video>
+            </video> */}
         </div>
     </div>
   )
