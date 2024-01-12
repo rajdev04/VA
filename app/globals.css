@@ -369,3 +369,19 @@ html,body{
   max-width: 100%;
   background-color: lightgrey;
 }
+.slide-1{
+  place-self: start center;
+  height: 10vh;
+  width: 50vw;
+  background-color: crimson;
+}
+.slide-2{
+  height: 10vh;
+  width: 50vw;
+  background-color: rosybrown;
+}
+.slide-3{
+  height: 10vh;
+  width: 50vw;
+  background-color: royalblue;
+}
