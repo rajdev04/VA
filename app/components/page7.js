@@ -1,5 +1,6 @@
 import React from 'react'
 import 'remixicon/fonts/remixicon.css'
+import Link from 'next/link'
 
 const page7 = () => {
   return (
@@ -44,7 +45,44 @@ const page7 = () => {
             <div className='cont-7-center'>
                 <div className='inner-7-center'>
                     <div className='contact-inner-left'></div>
-                    <div className='contact-inner-right'></div>
+                    <div className='contact-inner-right'>
+                        <div className='inner-right-7-1'>
+                            <h1 className='r-t-1'>Send a Message</h1>
+                        </div>
+                        <div className='inner-right-7-2'>
+                            <div className='faurm'> 
+                                <form>
+                                    <div className='faurm-1'>
+                                        <label>
+                                            First Name
+                                            <br/>
+                                            <input type='text'/>
+                                        </label>
+                                        <label>
+                                            <input type='email' placeholder='Email'/>
+                                        </label>
+                                       <textarea rows='10' cols='50' placeholder='write you message here...'>
+
+                                       </textarea>
+                                    </div>
+                                    <div className='faurm-2'>
+                                        <label>
+                                            Last Name
+                                            <br/>
+                                            <input type='text' />
+                                        </label>
+                                        <label>
+                                            <input type='text' placeholder='Mobile Number'/>
+                                        </label>
+                                        <label>
+                                            <input style={{display: 'none'}} type='text' placeholder='Mobile Number'/>
+                                        </label>
+                                    </div>  
+                                    <Link href='' className='f-hyperlink'>SEND</Link>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
