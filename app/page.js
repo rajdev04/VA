@@ -24,6 +24,7 @@ const page = () => {
       <Page4></Page4>
       <br/>
       <Page5></Page5>
+      <br/>
       <Page6></Page6>
       <br/>
       <Page7></Page7>

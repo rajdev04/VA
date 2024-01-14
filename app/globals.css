@@ -290,7 +290,6 @@ html,body{
   height: 65vh;
   width: 100vw;
   max-width: 100%;
-  background-color: lightgrey;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,25 +366,115 @@ html,body{
   height: 60vh;
   width: 100vw;
   max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: darkorange; */
+}
+.slide-wraper{
+  height: 55vh;
+  width: 50vw;
   background-color: lightgrey;
 }
-.slide-1{
-  place-self: start center;
-  height: 10vh;
+.slick-slide > div{
+  height: 55vh;
   width: 50vw;
-  background-color: crimson;
 }
-.slide-2{
-  height: 10vh;
-  width: 50vw;
-  background-color: rosybrown;
+.slide-in{
+  height: 15vh;
+  width: 15vh;
+  margin-left: 45vh;
+  margin-top: 1vh;
+  border-radius: 50%;
+  overflow: hidden;
+  border: .6vh solid darkorange;
 }
-.slide-3{
-  height: 10vh;
-  width: 50vw;
-  background-color: royalblue;
+.user-img{
+  height: 15vh;
+  width: 15vh;
+  object-fit: cover;
 }
 
+.username{
+  height: 8vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-name{
+  font-size: 3vh;
+  margin-bottom: 5vh;
+}
+.user-review{
+  height: 30vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4vh;
+}
+.user-given-review{
+  font-size: 3vh;
+  font-weight: 100;
+  text-align: center;
+}
+
+.slide-in-1{
+  height: 55vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 5vh 10vh;
+}
+.slide-in-2{
+  height: 55vh;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5vh;
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  transform: translate(-50%,-50%);
+  gap: 2vh;
+}
+.quotes{
+  font-size: 6vh;
+}
+.user-photo{
+  height: 45vh;
+  width: 40vh;
+  margin-left: 3vh;
+}
+.user-photu{
+  height: 45vh;
+  width: 40vh;
+  object-fit: cover;
+}
+.user-gyaan{
+  height: 30vh;
+  width: 50vh;
+  border: .4vh solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4vh;
+  margin-left: 4vh;
+  background-color: rgb(179, 179, 179);
+}
+.user-gyaan-dediya{
+  font-size: 2vh;
+  font-weight: 100;
+}
+.chodu{
+  margin-bottom: -8vh;
+  font-weight: 100;
+}
 
 /* PAGE 7 STYLING */
 
@@ -572,7 +661,7 @@ input{
   border: none;
   background-color: transparent;
   border-bottom: .3vh solid black;
-  font-size: 2.6vh;
+  font-size: 2.4vh;
   color: black;
   font-weight: 100;
   width: 20vw;
@@ -598,8 +687,9 @@ input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 2.7vh;
+  border-radius: 1vh;
   background-color: darkorange;
   letter-spacing: .3vh;
 }
@@ -607,3 +697,4 @@ input:focus{
   height: 70vh;
   width: 13vw;
 }
+
