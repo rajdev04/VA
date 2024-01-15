@@ -8,7 +8,8 @@ const page1 = () => {
             <div className='cont-1-left'>
                 <h1 className='cont-1-text-1'>Welcome to</h1>
                 <h1 className='cont-1-text-2'>Vaidik Anusthanam</h1>
-                <h1 className='cont-1-text-3'>Your Initial Initiated Gateway for Spiritual Fulfillment!</h1>
+                {/* <h1 className='cont-1-text-3'>Your Initial Initiated Gateway for Spiritual Fulfillment!</h1> */}
+                <h1 className='cont-1-text-3'>Where Sacred Traditions Blend with Spiritual Transition</h1>
             </div>
             <div className='cont-1-right'>
                     {/* <div className='random-test-1'>
