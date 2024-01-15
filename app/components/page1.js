@@ -11,7 +11,7 @@ const page1 = () => {
                 <h1 className='cont-1-text-3'>Your Initial Initiated Gateway for Spiritual Fulfillment!</h1>
             </div>
             <div className='cont-1-right'>
-                    <div className='random-test-1'>
+                    {/* <div className='random-test-1'>
                     <div className='cont-1-img-1'>
                         <img className='img-1-part-1' src='./group333.png'/>
                     </div>
@@ -21,7 +21,11 @@ const page1 = () => {
                     <div className='cont-1-img-3'>
                         <img className='img-1-part-3' src='./group111.png'/>
                     </div>
-                </div>
+                </div> */}
+                    <div className='exp-1-1'>
+                        <img src='./welocme.jpg' className='exp-1-img'/>
+                    </div>
+
             </div>
         </div>
     </>
