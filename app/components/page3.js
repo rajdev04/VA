@@ -14,7 +14,7 @@ const page3 = () => {
                         </div>
                         <div className='service-two'>
                             <h1 className='service-two-text-1'>Regular pooja</h1> 
-                            <h1 className='service-two-text-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate sem ut turpis facilisis, at faucibus erat tempor.</h1>
+                            <h1 className='service-two-text-2'>Poojas that suit your daily needs and sacredly cleanse your daily deeds. These daily poojas are a must essential for individuals and families comprised of all age groups.</h1>
                         </div>
                     </div>
                     <div className='service-2'>
@@ -30,7 +30,7 @@ const page3 = () => {
                         </div>
                         <div className='service-two'>
                             <h1 className='service-two-text-1'>Life Sanskars</h1> 
-                            <h1 className='service-two-text-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate sem ut turpis facilisis, at faucibus erat tempor.</h1>
+                            <h1 className='service-two-text-2'>Sacred milestones for each achievement in a life process. Celebrating these checkpoints denotes mukti and liberation.</h1>
                         </div>
                     </div>
                     <div className='service-2'>
@@ -46,7 +46,7 @@ const page3 = () => {
                         </div>
                         <div className='service-two'>
                             <h1 className='service-two-text-1'>Astrology pooja</h1> 
-                            <h1 className='service-two-text-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate sem ut turpis facilisis, at faucibus erat tempor.</h1>
+                            <h1 className='service-two-text-2'>Sacred science summoning planets to bestow positivity in life. A pure relation that binds a human body and cosmic forces together. </h1>
                         </div>
                     </div>
                     <div className='service-2'>
@@ -62,7 +62,7 @@ const page3 = () => {
                         </div>
                         <div className='service-two'>
                             <h1 className='service-two-text-1'>Festive pooja</h1> 
-                            <h1 className='service-two-text-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate sem ut turpis facilisis, at faucibus erat tempor.</h1>
+                            <h1 className='service-two-text-2'>Illuminating your inner divine through vaidik and sanatani festivals. Celebrating all these brings prosperity, and denotes your spiritual fulfillness.</h1>
                         </div>
                     </div>
                     <div className='service-2'>

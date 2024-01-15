@@ -16,12 +16,12 @@ const nav = () => {
 
                 <div className='nav-icon-wrap'>  
                     <div className='gg'> <i class="ri-home-smile-line"></i></div>
-                    <div className='gg'><Link className='hyperlink' href=''>Home</Link></div>
+                    <div className='gg'><Link className='hyperlink' href='/'>Home</Link></div>
                 </div>
 
                 <div className='nav-icon-wrap'>
                     <div className='gg'><i class="ri-ancient-pavilion-line"></i></div>
-                    <div className='gg'><Link className='hyperlink' href=''>About us</Link></div>
+                    <div className='gg'><Link className='hyperlink' href='/about-us'>About us</Link></div>
                 </div>
 
                 <div className='nav-icon-wrap'>

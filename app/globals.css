@@ -265,6 +265,7 @@ html,body{
 }
 .service-two-text-1{
   font-size: 4vh;
+  /* color: darkorange; */
 }
 .service-two-text-2{
   font-size: 2vh;
@@ -275,7 +276,7 @@ html,body{
   height: 8vh;
   width: 24vw;
   border-radius: 1vh;
-  background-color: darkorange;
+  /* background-color: darkorange; */
   display: flex;
   align-items: center;
   justify-content: center;
