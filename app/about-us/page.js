@@ -2,10 +2,7 @@
 import React from 'react'
 import Nav from '@/app/components/nav'
 import '../globals.css'
-import Aboutus1 from '@/app/components/aboutus1'
-import Aboutus2 from '@/app/components/aboutus2'
-import Aboutus3 from '@/app/components/aboutus3'
-import Aboutus4 from '@/app/components/aboutus4'
+
 
 
 const page = () => {
