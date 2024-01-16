@@ -13,8 +13,9 @@ import Page7 from '@/app/components/page7'
 const page = () => {
   return (
     <>
+      <div className='nav-wraper'>
       <Nav></Nav>
-      <br/><br/><br/><br/>
+      </div>
       <Page1></Page1>
       <br/>
       <Page2></Page2>
