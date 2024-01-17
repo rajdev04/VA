@@ -1017,3 +1017,21 @@ input:focus{
 .ab-12>h2{
   font-weight: 100;
 }
+
+
+
+
+/* SERVICES STYLING */
+
+
+.pooja-cont{
+  height: fit-content;
+  width: 100vw;
+  max-width: 100%;
+  background-color: crimson;
+}
+.service-cont{
+  height: 100vh;
+  width: 100%;
+  background-color: rosybrown;
+}
