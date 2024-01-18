@@ -18,7 +18,7 @@ const page3 = () => {
                         </div>
                     </div>
                     <div className='service-2'>
-                        <Link href='' className='hype-link-service'>EXPLORE MORE</Link>
+                        <Link href='/regularpooja' className='hype-link-service'>EXPLORE MORE</Link>
                     </div>
                 </div>
 
