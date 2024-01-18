@@ -1028,7 +1028,12 @@ input:focus{
   height: fit-content;
   width: 100vw;
   max-width: 100%;
-  background-color: crimson;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
 }
 .service-cont{
   height: fit-content;
@@ -1070,6 +1075,7 @@ input:focus{
   text-transform: uppercase;
   letter-spacing: .2vh;
   font-size: 5vh;
+  color: darkorange;
 }
 .sub-heading{
   height: fit-content;
@@ -1106,4 +1112,18 @@ input:focus{
 }
 .service-context>h2{
   font-weight: 100;
+}
+.book-hyperlink{
+  text-decoration: none;
+  color: black;
+  height: 5vh;
+  width: 8vw;
+  font-weight: 600;
+  font-size: 2vh;
+  letter-spacing: .2vh;
+  border: .3vh black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5vh;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '@/app/components/nav'
+import Link from 'next/link'
 
 
 
@@ -235,7 +236,7 @@ const page = () => {
                                         <h2>{d.sc12}</h2>
                                     </div>
                                 </div>
-             
+                        <Link href='/booknow' className='book-hyperlink'>Book Now</Link>
 
             </div>
    ))}
