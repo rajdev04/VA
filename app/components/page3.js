@@ -34,7 +34,7 @@ const page3 = () => {
                         </div>
                     </div>
                     <div className='service-2'>
-                    <Link href='' className='hype-link-service'>EXPLORE MORE</Link>
+                    <Link href='/lifesanskar' className='hype-link-service'>EXPLORE MORE</Link>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ const page3 = () => {
                         </div>
                     </div>
                     <div className='service-2'>
-                    <Link href='' className='hype-link-service'>EXPLORE MORE</Link>
+                    <Link href='astrologypooja' className='hype-link-service'>EXPLORE MORE</Link>
                     </div>
                 </div>
 
