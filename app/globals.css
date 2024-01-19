@@ -1319,6 +1319,7 @@ input:focus{
   }
   .about-us-container-2>.ab-right>.ab-2{
     width: 100vw;
+    padding: 0 1vh;
   }
   .about-us-container-2>.ab-right>.ab-1>h1{
     text-align: center;
