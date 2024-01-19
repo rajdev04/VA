@@ -75,7 +75,6 @@ html,body{
   height: fit-content;
   width: 100vw;
   max-width: 100%;
-  /* background-color: lightgrey; */
   display: flex;
 }
 .cont-1-left{
@@ -1028,7 +1027,6 @@ input:focus{
   height: fit-content;
   width: 100vw;
   max-width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1180,6 +1178,7 @@ input:focus{
   color: white;
   font-family: samarkan;
   font-size: 3vh;
+  text-align: center;
 }
 .card>.middle{
   height: 30vh;
@@ -1215,4 +1214,395 @@ input:focus{
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+@media (max-width: 1368px){
+  .main {
+    height: 100vh;
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .overlaymain {
+    height: 100vh;
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+  .card {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-radius: 5vh; /* Adjust radius for smaller screens */
+  }
+
+  .overlay {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-radius: 5vh; /* Adjust radius for smaller screens */
+    backdrop-filter: blur(0.4vh); /* Adjust blur for smaller screens */
+  }
+  .card > .top {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-top-left-radius: 5vh; /* Adjust radius for smaller screens */
+    border-top-right-radius: 5vh; /* Adjust radius for smaller screens */
+    font-size: 2.5vh; /* Adjust font size for smaller screens */
+    text-align: center;
+  }
+
+  .card > .middle {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+  }
+  .card > .middle > form {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+  }
+
+  .card > .middle > form > label {
+    font-size: 2vh; /* Adjusted font size for smaller screens */
+  }
+
+  .card > .middle > form > label > input {
+    font-size: 2vh; /* Adjusted font size for smaller screens */
+    width: 80vw;
+  }
+  .card > .bottom {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-bottom-left-radius: 5vh; /* Adjust radius for smaller screens */
+    border-bottom-right-radius: 5vh; /* Adjust radius for smaller screens */
+  }
+
+
+  /* POOJA CATEGORIES RESPONSIVE */
+
+  .service-context > h1 {
+    font-size: 4vw; /* Adjusted font size for smaller screens */
+  }
+  .service-context>h2{
+    font-weight: 100;
+    font-size: 2vh;
+  }
+
+  .book-hyperlink {
+    width: 25vw; /* Adjusted width for smaller screens */
+    font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    letter-spacing: 0.2vw; /* Adjusted letter spacing for smaller screens */
+    border-radius: 6vw; /* Adjusted radius for smaller screens */
+  }
+  .sub-heading > h1 {
+    font-size: 3.5vh; /* Adjusted font size for smaller screens */
+  }
+  .sub-heading>h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2vh;
+  }
+
+  .service-context {
+    width: 95vw; /* Adjusted width for smaller screens */
+  }
+  .main-header > h1 {
+    font-size: 7vw; /* Adjusted font size for smaller screens */
+    text-align: center;
+  }
+
+  .sub-heading {
+    width: 95vw; /* Adjusted width for smaller screens */
+  }
+  .service-cont {
+    padding: 2vh 1vw; /* Adjusted padding for smaller screens */
+  }
+
+  .service-img {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .service-text-cont {
+    width: 95vw; /* Adjusted width for smaller screens */
+  }
+  .pooja-cont {
+    width: 100vw; /* Adjusted width for smaller screens */
+  }
+
+  /* PAGE 1 RESPONSIVE */
+
+  .cont-1{
+    flex-direction: column;
+  }
+  .cont-1-left {
+    height: fit-content;
+    width: 100%; /* Full width for smaller screens */
+    align-items: center; /* Center align items for smaller screens */
+    justify-content: center; /* Center justify content for smaller screens */
+    padding: 10vh 3vw; /* Adjusted padding for smaller screens */
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cont-1-text-1 {
+    font-size: 10vw; /* Adjusted font size for smaller screens */
+    font-weight: 600;
+  }
+  .cont-1-text-2 {
+    font-size: 15vw; /* Adjusted font size for smaller screens */
+    text-align: center;
+  }
+
+  .cont-1-text-3 {
+    font-size: 7vw; /* Adjusted font size for smaller screens */
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .cont-1-right {
+    width: 100%; /* Full width for smaller screens */
+    padding: 0 5vw; /* Adjusted padding for smaller screens */
+    height: fit-content;
+  }
+  .random-test-1 {
+    height: 15vw; /* Adjusted height for smaller screens */
+    width: 15vw; /* Adjusted width for smaller screens */
+  }
+
+  .cont-1-img-1 {
+    height: 70vw; /* Adjusted height for smaller screens */
+    width: 70vw; /* Adjusted width for smaller screens */
+  }
+
+  .cont-1-img-2 {
+    height: 40vw; /* Adjusted height for smaller screens */
+    width: 40vw; /* Adjusted width for smaller screens */
+  }
+  .cont-1-img-3 {
+    height: 15vw; /* Adjusted height for smaller screens */
+    width: 15vw; /* Adjusted width for smaller screens */
+  }
+
+  .img-1-part-1 {
+    height: 50vw; /* Adjusted height for smaller screens */
+    width: 50vw; /* Adjusted width for smaller screens */
+  }
+
+  .img-1-part-2 {
+    height: 30vw; /* Adjusted height for smaller screens */
+    width: 30vw; /* Adjusted width for smaller screens */
+  }
+
+  .img-1-part-3 {
+    height: 15vw; /* Adjusted height for smaller screens */
+    width: 15vw; /* Adjusted width for smaller screens */
+  }
+  .exp-1-1,
+  .exp-1-img {
+    width: 90vw; /* Adjusted width for smaller screens */
+    height: 50vh; /* Maintain aspect ratio for smaller screens */
+    border-radius: 2vw; /* Adjusted border radius for smaller screens */
+  }
+
+
+
+  /* PAGE 2 RESPONSIVE */
+
+
+
+  
+}
+
+@media (max-width: 600px) {
+  .nav-wraper{
+    display: none;
+  }
+  .main {
+    height: 100vh;
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .overlaymain {
+    height: 100vh;
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+  .card {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-radius: 5vh; /* Adjust radius for smaller screens */
+  }
+
+  .overlay {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-radius: 5vh; /* Adjust radius for smaller screens */
+    backdrop-filter: blur(0.4vh); /* Adjust blur for smaller screens */
+  }
+  .card > .top {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-top-left-radius: 5vh; /* Adjust radius for smaller screens */
+    border-top-right-radius: 5vh; /* Adjust radius for smaller screens */
+    font-size: 2.5vh; /* Adjust font size for smaller screens */
+    text-align: center;
+  }
+
+  .card > .middle {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+  }
+  .card > .middle > form {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+  }
+
+  .card > .middle > form > label {
+    font-size: 2vh; /* Adjusted font size for smaller screens */
+  }
+
+  .card > .middle > form > label > input {
+    font-size: 2vh; /* Adjusted font size for smaller screens */
+    width: 80vw;
+  }
+  .card > .bottom {
+    width: 90vw;
+    max-width: none; /* Remove maximum width on smaller screens */
+    border-bottom-left-radius: 5vh; /* Adjust radius for smaller screens */
+    border-bottom-right-radius: 5vh; /* Adjust radius for smaller screens */
+  }
+
+
+  /* POOJA SERVICE RESPONSIVE */
+
+
+
+  .service-context > h1 {
+    font-size: 5vw; /* Adjusted font size for smaller screens */
+  }
+  .service-context>h2{
+    font-weight: 100;
+    font-size: 2vh;
+  }
+
+  .book-hyperlink {
+    width: 25vw; /* Adjusted width for smaller screens */
+    font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    letter-spacing: 0.2vw; /* Adjusted letter spacing for smaller screens */
+    border-radius: 6vw; /* Adjusted radius for smaller screens */
+  }
+  .sub-heading > h1 {
+    font-size: 5vw; /* Adjusted font size for smaller screens */
+  }
+  .sub-heading>h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2vh;
+  }
+
+  .service-context {
+    width: 95vw; /* Adjusted width for smaller screens */
+  }
+  .main-header > h1 {
+    font-size: 7vw; /* Adjusted font size for smaller screens */
+    text-align: center;
+  }
+
+  .sub-heading {
+    width: 95vw; /* Adjusted width for smaller screens */
+  }
+  .service-cont {
+    padding: 2vh 1vw; /* Adjusted padding for smaller screens */
+  }
+
+  .service-img {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .service-text-cont {
+    width: 95vw; /* Adjusted width for smaller screens */
+  }
+  .pooja-cont {
+    width: 100vw; /* Adjusted width for smaller screens */
+  }
+
+
+
+  /* PAGE 1 RESPONSIVE */
+
+  .cont-1{
+    flex-direction: column;
+  }
+  .cont-1-left {
+    height: fit-content;
+    width: 100%; /* Full width for smaller screens */
+    align-items: center; /* Center align items for smaller screens */
+    justify-content: center; /* Center justify content for smaller screens */
+    padding: 10vh 3vw; /* Adjusted padding for smaller screens */
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cont-1-text-1 {
+    font-size: 10vw; /* Adjusted font size for smaller screens */
+    font-weight: 600;
+  }
+  .cont-1-text-2 {
+    font-size: 15vw; /* Adjusted font size for smaller screens */
+    text-align: center;
+  }
+
+  .cont-1-text-3 {
+    font-size: 7vw; /* Adjusted font size for smaller screens */
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .cont-1-right {
+    height: fit-content;
+    width: 100%; /* Full width for smaller screens */
+    padding: 0 5vw; /* Adjusted padding for smaller screens */
+
+  }
+  .random-test-1 {
+    height: 15vw; /* Adjusted height for smaller screens */
+    width: 15vw; /* Adjusted width for smaller screens */
+  }
+
+  .cont-1-img-1 {
+    height: 70vw; /* Adjusted height for smaller screens */
+    width: 70vw; /* Adjusted width for smaller screens */
+  }
+
+  .cont-1-img-2 {
+    height: 40vw; /* Adjusted height for smaller screens */
+    width: 40vw; /* Adjusted width for smaller screens */
+  }
+  .cont-1-img-3 {
+    height: 15vw; /* Adjusted height for smaller screens */
+    width: 15vw; /* Adjusted width for smaller screens */
+  }
+
+  .img-1-part-1 {
+    height: 50vw; /* Adjusted height for smaller screens */
+    width: 50vw; /* Adjusted width for smaller screens */
+  }
+
+  .img-1-part-2 {
+    height: 30vw; /* Adjusted height for smaller screens */
+    width: 30vw; /* Adjusted width for smaller screens */
+  }
+
+  .img-1-part-3 {
+    height: 15vw; /* Adjusted height for smaller screens */
+    width: 15vw; /* Adjusted width for smaller screens */
+  }
+  .exp-1-1,
+  .exp-1-img {
+    height: 40vh;
+    width: 90vw; /* Adjusted width for smaller screens */
+    /* Maintain aspect ratio for smaller screens */
+    border-radius: 2vw; /* Adjusted border radius for smaller screens */
+  }
+
+
+  /* PAGE 2 RESPONSIVE */
+
+
+
 }
