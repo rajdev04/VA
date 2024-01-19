@@ -1229,6 +1229,142 @@ input:focus{
   }
 
 
+  /* ABOUT US PAGE RESPONSIVE */
+
+
+
+  .about-us-container-1{
+    width: 100vw;
+  }
+  .about-us-container-2{
+    width: 100vw;
+  }
+  .ab-right{
+    width: 100vw;
+  }
+  .ab-left-img-cont{
+    width: 100vw;
+  }
+  .ab-left-img{
+    width: 100vw;
+  }
+  .ab-left{
+    width: 100vw;
+  }
+  .ab-1{
+    height: fit-content;
+  }
+  .ab-2{
+    height: fit-content;
+  }
+  .ab-1>h1{
+    font-size: 5.5vh;
+  }
+  .ab-2>h1{
+    font-size: 2.5vh;
+    text-align: center;
+  }
+  .ab-3{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-3>h1{
+    font-size: 2.5vh;
+  }
+  .ab-4{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-4>h1{
+    font-size: 2.5vh;
+  }
+  .ab-5{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-6{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-7{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-8{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-9{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-10{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-11{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+  .ab-12{
+    width: 100vw;
+    padding: 0 1vh;
+  }
+
+  .ab-5>h1{
+    font-size: 2.5vh;
+  }
+  .about-us-container-2>.ab-right>.ab-1{
+    width: 100vw;
+  }
+  .about-us-container-2>.ab-right>.ab-2{
+    width: 100vw;
+  }
+  .about-us-container-2>.ab-right>.ab-1>h1{
+    text-align: center;
+    font-size: 4vh;
+  }
+  .about-us-container-2>.ab-right>.ab-2>h1{
+    font-size: 2vh;
+    text-align: left;
+  }
+  .about-us-container-2>.ab-right>.ab-3>h2{
+    font-size: 2vh;
+  }
+  .about-us-container-2>.ab-right>.ab-4>h2{
+    font-size: 2vh;
+  }
+  .about-us-container-2>.ab-right>.ab-5>h2{
+    font-size: 2vh;
+  }
+    .about-us-container-2>.ab-right>.ab-6>h2{
+    font-size: 2vh;
+  }
+    .about-us-container-2>.ab-right>.ab-7>h2{
+    font-size: 2vh;
+  }
+    .about-us-container-2>.ab-right>.ab-8>h2{
+    font-size: 2vh;
+  }
+    .about-us-container-2>.ab-right>.ab-9>h2{
+    font-size: 2vh;
+  }
+    .about-us-container-2>.ab-right>.ab-10>h2{
+    font-size: 2vh;
+  }
+    .about-us-container-2>.ab-right>.ab-11>h2{
+    font-size: 2vh;
+  } 
+   .about-us-container-2>.ab-right>.ab-12>h2{
+    font-size: 2vh;
+  } 
+  .about-us-container-2>.ab-right>.ab-12>h1{
+    font-size: 2vh;
+  } 
+  
+
+
+
   /* LOGIN PAGE RESPONSIVE */
 
 
