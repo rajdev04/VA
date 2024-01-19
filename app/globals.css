@@ -245,7 +245,7 @@ html,body{
   border-radius: 1vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   gap: 1vh;
 }
@@ -271,7 +271,6 @@ html,body{
 }
 .service-two-text-1{
   font-size: 4vh;
-  /* color: darkorange; */
 }
 .service-two-text-2{
   font-size: 2vh;
@@ -282,7 +281,6 @@ html,body{
   height: 8vh;
   width: 24vw;
   border-radius: 1vh;
-  /* background-color: darkorange; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -390,7 +388,6 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: darkorange; */
 }
 .slide-wraper{
   height: 55vh;
@@ -1217,6 +1214,24 @@ input:focus{
 }
 
 @media (max-width: 1368px){
+
+  .navbar{
+    flex-direction: column;
+  }
+  .nav-right{
+    gap: 1vh;
+  }
+  .gg>i{
+    font-size: 0vh;
+  }
+  .hyperlink{
+    font-size: 1.5vh;
+  }
+
+
+  /* LOGIN PAGE RESPONSIVE */
+
+
   .main {
     height: 100vh;
     padding: 0 20px; /* Adjust padding for smaller screens */
@@ -1404,14 +1419,291 @@ input:focus{
   /* PAGE 2 RESPONSIVE */
 
 
+  
+  .cont-2-text-1 {
+    font-size: 5vh; /* Adjusted font size for smaller screens */
+  }
+  .cont-2-text-2 {
+    font-size: 5vw; /* Adjusted font size for smaller screens */
+  }
+
+  .vid-wraper {
+    height: 30vh; /* Adjusted height for smaller screens */
+  }
+  .vid {
+    height: 100vw; /* Adjusted height for smaller screens, maintaining the aspect ratio */
+  }
+
+
+  /* PAGE 3 RESPONSIVE */
+
+
+  .cont-3 {
+    height: fit-content;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: stretch; /* Stretch items vertically on smaller screens */
+    gap: 1vh; /* Adjusted gap for smaller screens */
+    padding: 0 0;
+  }
+
+  .service {
+    width: 100vw; /* Adjusted width for smaller screens */
+  }
+
+  .service-1 {
+    width: 90vw; /* Adjusted width for smaller screens */
+  }
+  .service-one{
+    width: 90vw;
+  }
+  .service-one-img{
+    width: 90vw;
+  }
+  .service-two {
+    width: 90vw; /* Adjusted width for smaller screens */
+  }
+  .service-2{
+    width: 90vw;
+  }
+  .hype-link-service {
+    width: 50vw; /* Adjusted width for smaller screens */
+  }
+
+
+  /* PAGE 4 RESPONSIVE */
+
+
+  .cont-4{
+    flex-direction: column;
+  }
+  .cont-4-left {
+    width: 90vw; /* Adjusted width for smaller screens */
+  }
+
+  .cont-4-right {
+    width: 90vw; /* Adjusted width for smaller screens */
+  }
+
+  .cont-4-center {
+    height: 35vw; /* Adjusted height for smaller screens */
+    width: 35vw; /* Adjusted width for smaller screens */
+    top: 55%;
+    left: 45%;
+  }
+
+  .c-4-left-text,
+  .c-4-right-text {
+    font-size: 4vh; /* Adjusted font size for smaller screens */
+    margin-right: 5vh; /* Adjusted margin for smaller screens */
+    text-align: center;
+    margin-left: 2vh;
+  }
+
+
+
+  /* PAGE 5 RESPONSIVE */
+
+
+  .cont-5-text-1 {
+    font-size: 3vh; /* Adjusted font size for smaller screens */
+  }
+
+  .cont-5-text-2 {
+    font-size: 7vh; /* Adjusted font size for smaller screens */
+    line-height: 7vh; /* Adjusted line height for smaller screens */
+  }
+
+  .cont-5-text-3 {
+    font-size: 2.5vh; /* Adjusted font size for smaller screens */
+    width: 90vw; /* Adjusted width for smaller screens */
+  }
+
+
+  /* PAGE 6 RESPONSIVE */
+
 
   
+  .cont-6{
+    height: 70vh;
+  }
+ .slide-wraper{
+  width: 90vw;
+  height: 60vh;
+ }
+ .slick-slide > div{
+  height: 60vh;
+  width: 90vw;
+}
+.slide-in{
+  margin-left: 27vh;
+}
+.username{
+  width: 90vw;
+}
+.user-name{
+  font-size: 3vh;
+}
+.user-review{
+  width: 90vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.user-given-review{
+  font-size: 2.5vh;
+}
+
 }
 
 @media (max-width: 600px) {
-  .nav-wraper{
-    display: none;
+  .navbar{
+    flex-direction: column;
   }
+  .nav-right{
+    gap: 1vh;
+  }
+  .gg>i{
+    font-size: 0vh;
+  }
+  .hyperlink{
+    font-size: 1.5vh;
+  }
+
+
+    /* ABOUT US PAGE RESPONSIVE */
+    .about-us-container-1{
+      width: 100vw;
+    }
+    .about-us-container-2{
+      width: 100vw;
+    }
+    .ab-right{
+      width: 100vw;
+    }
+    .ab-left-img-cont{
+      width: 100vw;
+    }
+    .ab-left-img{
+      width: 100vw;
+    }
+    .ab-left{
+      width: 100vw;
+    }
+    .ab-1{
+      height: fit-content;
+    }
+    .ab-2{
+      height: fit-content;
+    }
+    .ab-1>h1{
+      font-size: 5.5vh;
+    }
+    .ab-2>h1{
+      font-size: 2.5vh;
+      text-align: center;
+    }
+    .ab-3{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-3>h1{
+      font-size: 2.5vh;
+    }
+    .ab-4{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-4>h1{
+      font-size: 2.5vh;
+    }
+    .ab-5{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-6{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-7{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-8{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-9{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-10{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-11{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+    .ab-12{
+      width: 100vw;
+      padding: 0 1vh;
+    }
+
+    .ab-5>h1{
+      font-size: 2.5vh;
+    }
+    .about-us-container-2>.ab-right>.ab-1{
+      width: 100vw;
+    }
+    .about-us-container-2>.ab-right>.ab-2{
+      width: 100vw;
+    }
+    .about-us-container-2>.ab-right>.ab-1>h1{
+      text-align: center;
+      font-size: 4vh;
+    }
+    .about-us-container-2>.ab-right>.ab-2>h1{
+      font-size: 2vh;
+      text-align: left;
+    }
+    .about-us-container-2>.ab-right>.ab-3>h2{
+      font-size: 2vh;
+    }
+    .about-us-container-2>.ab-right>.ab-4>h2{
+      font-size: 2vh;
+    }
+    .about-us-container-2>.ab-right>.ab-5>h2{
+      font-size: 2vh;
+    }
+      .about-us-container-2>.ab-right>.ab-6>h2{
+      font-size: 2vh;
+    }
+      .about-us-container-2>.ab-right>.ab-7>h2{
+      font-size: 2vh;
+    }
+      .about-us-container-2>.ab-right>.ab-8>h2{
+      font-size: 2vh;
+    }
+      .about-us-container-2>.ab-right>.ab-9>h2{
+      font-size: 2vh;
+    }
+      .about-us-container-2>.ab-right>.ab-10>h2{
+      font-size: 2vh;
+    }
+      .about-us-container-2>.ab-right>.ab-11>h2{
+      font-size: 2vh;
+    } 
+     .about-us-container-2>.ab-right>.ab-12>h2{
+      font-size: 2vh;
+    } 
+    .about-us-container-2>.ab-right>.ab-12>h1{
+      font-size: 2vh;
+    } 
+    
+
+
+  /* LOGIN PAGE RESPONSIVE */
+
+
   .main {
     height: 100vh;
     padding: 0 20px; /* Adjust padding for smaller screens */
@@ -1604,5 +1896,132 @@ input:focus{
   /* PAGE 2 RESPONSIVE */
 
 
+  .cont-2-text-1 {
+    font-size: 5vh; /* Adjusted font size for smaller screens */
+  }
+  .cont-2-text-2 {
+    font-size: 5vw; /* Adjusted font size for smaller screens */
+  }
 
+  .vid-wraper {
+    height: 30vh; /* Adjusted height for smaller screens */
+  }
+  .vid {
+    height: 100vw; /* Adjusted height for smaller screens, maintaining the aspect ratio */
+  }
+
+
+    /* PAGE 3 RESPONSIVE */
+
+
+    .cont-3 {
+      height: fit-content;
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: stretch; /* Stretch items vertically on smaller screens */
+      gap: 1vh; /* Adjusted gap for smaller screens */
+      padding: 0 0;
+    }
+  
+    .service {
+      width: 100vw; /* Adjusted width for smaller screens */
+    }
+  
+    .service-1 {
+      width: 90vw; /* Adjusted width for smaller screens */
+    }
+    .service-one{
+      width: 90vw;
+    }
+    .service-one-img{
+      width: 90vw;
+    }
+    .service-two {
+      width: 90vw; /* Adjusted width for smaller screens */
+    }
+    .service-2{
+      width: 90vw;
+    }
+    .hype-link-service {
+      width: 50vw; /* Adjusted width for smaller screens */
+    }
+
+
+    /* PAGE 4 RESPONSIVE */
+
+    .cont-4{
+      flex-direction: column;
+    }
+    .cont-4-left {
+      width: 90vw; /* Adjusted width for smaller screens */
+    }
+  
+    .cont-4-right {
+      width: 90vw; /* Adjusted width for smaller screens */
+    }
+  
+    .cont-4-center {
+      height: 35vw; /* Adjusted height for smaller screens */
+      width: 35vw; /* Adjusted width for smaller screens */
+      top: 55%;
+      left: 45%;
+    }
+  
+    .c-4-left-text,
+    .c-4-right-text {
+      font-size: 4vh; /* Adjusted font size for smaller screens */
+      margin-right: 5vh; /* Adjusted margin for smaller screens */
+      text-align: center;
+      margin-left: 2vh;
+    }
+
+
+    /* PAGE 5 RESPONSIVE */
+
+
+    .cont-5-text-1 {
+      font-size: 3vh; /* Adjusted font size for smaller screens */
+    }
+  
+    .cont-5-text-2 {
+      font-size: 5vh; /* Adjusted font size for smaller screens */
+      line-height: 7vh; /* Adjusted line height for smaller screens */
+    }
+  
+    .cont-5-text-3 {
+      font-size: 2vh; /* Adjusted font size for smaller screens */
+      width: 90vw; /* Adjusted width for smaller screens */
+    }
+
+
+
+    /* PAGE 6 RESPONSIVE */
+
+    .cont-6{
+      height: 70vh;
+    }
+   .slide-wraper{
+    width: 90vw;
+    height: 60vh;
+   }
+   .slick-slide > div{
+    height: 60vh;
+    width: 90vw;
+  }
+  .slide-in{
+    margin-left: 50vh;
+  }
+  .username{
+    width: 90vw;
+  }
+  .user-name{
+    font-size: 3vh;
+  }
+  .user-review{
+    width: 90vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .user-given-review{
+    font-size: 2vh;
+  }
 }
